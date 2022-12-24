@@ -17,7 +17,7 @@ public class binarySearch
         if(result==-1)
             System.out.println("Element not found");
         else
-            System.out.printf("The element %d is found at %d",k,result);
+            System.out.printf("The element %d is found at index %d",k,result);
     }
     static int  Search(int arr[],int first,int last,int key)
     {
